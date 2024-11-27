@@ -70,3 +70,48 @@
     font-weight: 600;
     font-family: sans-serif;
 }
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.8%;
+}
+
+.nav-container > div {
+    display: flex;
+    border: 1px solid;
+}
+
+.top-nav-elements {
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.info-elements > span {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.search-elements {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search-elements > input {
+        width: 250px;
+        height: 20px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        padding: 5px;
+        background-color: #d3deff;
+}
+
+.info-elements {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
