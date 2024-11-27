@@ -76,17 +76,22 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 0.8%;
+    gap: 0.6rem;
 }
 
 .nav-container > div {
     display: flex;
-    border: 1px solid;
 }
 
-.top-nav-elements {
+.top-nav-elements, .bottom-nav-elements {
     justify-content: space-between;
     padding-left: 3%;
     padding-right: 3%;
+}
+
+.bottom-nav-elements {
+    display: flex;
+    justify-content: space-between;
 }
 
 .info-elements > span {
@@ -114,4 +119,44 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
+}
+
+.profile-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.9rem;
+    padding-left: 3%;
+}
+.profile-info-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-info-container > div > span {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#hi-there {
+    font-size: 0.8rem;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.btns-container > button {
+    background: #4d4dff;
+    color: #ffffff;
+    font-family: sans-serif;
+    width: fit-content;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 2%;
+    text-align: center;
 }
