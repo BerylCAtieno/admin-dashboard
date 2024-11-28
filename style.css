@@ -30,6 +30,7 @@
     background: #d3deff;
     grid-row: 3 / 11;
     grid-column: 2 / 6;
+    display: flex;
 }
 
 .dashboard-logo-container {
@@ -196,4 +197,16 @@
   cursor: not-allowed;
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
+}
+
+.projects-container {
+    background: red;
+    width: 75%;
+    height: 100%
+}
+
+.side-bar-container {
+    background: green;
+    width: 25%;
+    height: 100%
 }
